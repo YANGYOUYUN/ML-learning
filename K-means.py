@@ -20,7 +20,7 @@ X,y = make_blobs(n_samples=2000,centers=blob_centers, cluster_std = blob_std,ran
 kmeans = KMeans(n_clusters=k,random_state = 42)
 y_pred = kmeans.fit_predict(X)
 
-#定义聚类中心
+#预测新样本
 X_new = np.array([[0,2],[3,2],[3,2],[-3,3],[-3,2.5]])
 kmeans.predict(X_new)
 
