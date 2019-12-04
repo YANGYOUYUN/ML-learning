@@ -12,7 +12,6 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from mlxtend.classifier import StackingClassifier
-%matplotlib inline
 import re
 import warnings
 warnings.simplefilter('ignore')
